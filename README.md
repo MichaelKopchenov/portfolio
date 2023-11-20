@@ -26,4 +26,3 @@
 <p align="center">
 <img alt="DenverCoder1's Activity Graph" src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg"/>
 </p>
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="DenverCoder1's Activity Graph" src="[(https://github-readme-activity-graph.vercel.app/graph?michaelkopchenov=Ashutosh00710&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)" /></a>
