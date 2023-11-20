@@ -1,0 +1,125 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 79px 70px 0;
+    background-color: var(--dark-color);
+    font-family: 'Inter';
+  }
+  
+  .footer_type_saved-movies {
+    padding-top: 52px;
+  }
+  
+  .footer__title {
+    margin: 0 0 20px 0;
+    text-align: center;
+    color: var(--secondary-font-color);
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Inter';
+    line-height: 16px;
+  }
+  
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top: 1px solid #424242;
+  }
+  
+  .footer__navigation {
+    display: flex;
+  }
+  
+  .footer__subtitle {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: var(--main-font-color);
+  }
+  
+  .footer__link {
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: var(--main-font-color);
+    transition: opacity .3s linear;
+  }
+  
+  .footer__link:last-of-type {
+    margin-right: 0;
+  }
+  
+  /* Адаптив под экраны */
+  
+  @media screen and (max-width: 1023px) {
+    .footer {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer {
+      padding: 79px 10px 0;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer_type_saved-movies {
+      padding-top: 52px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer__title {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer__container {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 30px;
+      padding-bottom: 17px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer__navigation {
+      order: -1;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer__subtitle {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer__link {
+      font-size: 12px;
+      margin-right: 0;
+      margin-bottom: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer__link:last-of-type {
+      margin-bottom: 28px;
+    }
+  }
+  
+  @media (hover: hover) and (pointer: fine) {
+    .footer__link:hover {
+      opacity: .7;
+      cursor: pointer;
+    }
+  }
