@@ -1,13 +1,13 @@
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&color=C542DF&width=270&lines=+Welcome+to+my+profile;Frontend+developer" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&color=C542DF&width=270&lines=+My+Profile+APP" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
-  <a href="https://hh.ru/resume/80424659ff021b134c0039ed1f34327a486673)"><img width="32px" src="/images/hh.png"/></a>
+  <a href="https://hh.ru/resume/80424659ff021b134c0039ed1f34327a486673)"><img width="32px" src="./src/images/hh.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://vk.com/id360041060" alt="Dev Pro Tips Discussion & Support Server"><img width="32px" src="/images/vk.png"/></a>
+  <a href="https://vk.com/id360041060" alt="Dev Pro Tips Discussion & Support Server"><img width="32px" src="./src/images/vk.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://web.telegram.org/?legacy=1#/im?p=@MikhailKopchenov"><img width="32px" alt="Dev.to" title="DenverCoder1 Dev.to" src="/images/tg.png"></a>
+  <a href="https://web.telegram.org/?legacy=1#/im?p=@MikhailKopchenov"><img width="32px" alt="Dev.to" title="DenverCoder1 Dev.to" src="./src/images/tg.png"></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
 </p>
 <p align="center" width="100px">
