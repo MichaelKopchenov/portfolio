@@ -5,10 +5,10 @@ import './AboutMe.css';
 
 export default function AboutMe() {
   return (
-    <section className="aboutme">
+    <section id='AboutMe' className="aboutme">
       <Container>
         <h2 className="aboutme__title">
-          Студент
+          Обо мне
         </h2>
         <div className="aboutme__container">
           <div className="aboutme__text-container">

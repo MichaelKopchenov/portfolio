@@ -10,7 +10,7 @@ export default function Header() {
         <p className="header__subtitle">
           Листайте ниже, чтобы узнать больше про мои работы и меня.
         </p>
-        <a href='#aboutProject' className="header__link">
+        <a href='#AboutMe' className="header__link">
           Узнать больше
         </a>
       </div>
