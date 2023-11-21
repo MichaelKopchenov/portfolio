@@ -142,6 +142,11 @@
     font-size: 18px;
     letter-spacing: -0.72px;
   }
+  .aboutme__techs {
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: -0.72px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -204,6 +209,7 @@
     margin-bottom: 39px;
     font-size: 11px;
     line-height: 16px;
+    text-align: center;
   }
 }
 

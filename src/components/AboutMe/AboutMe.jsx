@@ -25,9 +25,9 @@ export default function AboutMe() {
               После того, как прошёл курс  по веб-разработке,
               начал заниматься фриланс-заказами, но не ушёл с постоянной работы.
               </p>
-              <p className='aboutme__techs'>
+              <h2 className='aboutme__techs'>
                 Технологии
-              </p>
+              </h2>
               <p className="aboutme__techs-description">
                 На курсе веб-разработки мы освоили технологии, которые применили в дипломном проекте.
               </p>
