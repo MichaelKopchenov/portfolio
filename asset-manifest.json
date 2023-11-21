@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8cda3956.css",
-    "main.js": "/portfolio/static/js/main.62a4fcc8.js",
+    "main.css": "/portfolio/static/css/main.9d0bcb25.css",
+    "main.js": "/portfolio/static/js/main.b6bf1290.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Inter-Regular.woff": "/portfolio/static/media/Inter-Regular.0d6f7c99e635f1fec4c9.woff",
     "static/media/Inter-Medium.woff": "/portfolio/static/media/Inter-Medium.f4d11c8a0b8ff301493a.woff",
     "static/media/Inter-Medium.woff2": "/portfolio/static/media/Inter-Medium.8a50feca5194fae5cc45.woff2",
     "static/media/Inter-Regular.woff2": "/portfolio/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
+    "static/media/telephone.png": "/portfolio/static/media/telephone.6eb8ea7c3b28982b1fbc.png",
     "static/media/landing-logo.png": "/portfolio/static/media/landing-logo.9ce793d789a950123b45.png",
     "static/media/Avatar.jpeg": "/portfolio/static/media/Avatar.5973a88f770c6c11168d.jpeg",
     "index.html": "/portfolio/index.html",
     "static/media/urlButton.svg": "/portfolio/static/media/urlButton.f51e5357208af9c8038d.svg",
-    "main.8cda3956.css.map": "/portfolio/static/css/main.8cda3956.css.map",
-    "main.62a4fcc8.js.map": "/portfolio/static/js/main.62a4fcc8.js.map",
+    "main.9d0bcb25.css.map": "/portfolio/static/css/main.9d0bcb25.css.map",
+    "main.b6bf1290.js.map": "/portfolio/static/js/main.b6bf1290.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cda3956.css",
-    "static/js/main.62a4fcc8.js"
+    "static/css/main.9d0bcb25.css",
+    "static/js/main.b6bf1290.js"
   ]
 }
