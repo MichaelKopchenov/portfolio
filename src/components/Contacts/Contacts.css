@@ -1,10 +1,10 @@
-.portfolio__main {
+.contacts__main {
     width: 100%;
     padding-bottom: 105px;
     background-color: var(--dark-color);
   }
   
-  .portfolio__title {
+  .contacts__title {
     margin: 0 0 50px 0;
     padding-bottom: 24px;
     border-bottom: 1px solid #DADADA;
@@ -12,20 +12,29 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.88px;
-    color: var(--main-font-color)
+    color: var(--main-font-color);
   }
   
-  .portfolio__nav {
+  .contacts__nav {
+    display: grid;
     width: 100%;
+    justify-content: space-between;
+    grid-template-columns: minmax(0, 650px) 270px;
+  }
+
+  .contacts__icon {
+    max-width: 35px;
+    max-height: 35px;
+    align-content: center;
   }
   
-  .portfolio__ul {
+  .contacts__ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  .portfolio__link {
+  .contacts__link {
     text-decoration: none;
     padding-bottom: 9px;
     margin-bottom: 20px;
@@ -35,11 +44,11 @@
     color: var(--main-font-color)
   }
   
-  .portfolio__link_type_last {
+  .contacts__link_type_last {
     margin-bottom: 0;
   }
   
-  .portfolio__subtitle {
+  .contacts__subtitle {
     margin: 0;
     font-size: 30px;
     font-weight: 400;
@@ -48,7 +57,7 @@
     transition: opacity .3s linear;
   }
   
-  .portfolio__btn {
+  .contacts__btn {
     width: 29px;
     height: 60px;
     padding: 0;
@@ -61,43 +70,51 @@
     background-size: 20px 18px;
     transition: opacity .3s linear;
   }
+
+  .contacts__image {
+    display: block;
+    width: 270px;
+    height: 327px;
+    border-radius: 10px;
+    object-fit:contain
+  }
   
   /* Адаптив под экраны */
   
   @media screen and (max-width: 1023px) {
-    .portfolio__main {
+    .contacts__main {
       padding-bottom: 69px;
     }
   }
   
   @media screen and (max-width: 767px) {
-    .portfolio__main {
+    .contacts__main {
       padding-bottom: 50px;
     }
   }
   
   @media screen and (max-width: 767px) {
-    .portfolio__title {
+    .contacts__title {
       font-size: 14px;
       margin-bottom: 40px;
     }
   }
   
   @media screen and (max-width: 767px) {
-    .portfolio__link {
+    .contacts__link {
       padding-bottom: 19px;
     }
   }
   
   @media screen and (max-width:1023px) {
-    .portfolio__subtitle {
+    .contacts__subtitle {
       font-size: 28px;
       letter-spacing: -1.12px;
     }
   }
   
   @media screen and (max-width: 767px) {
-    .portfolio__subtitle {
+    .contacts__subtitle {
       font-size: 18px;
       line-height: 28px;
       letter-spacing: -0.72px;
@@ -105,7 +122,7 @@
   }
   
   @media screen and (max-width: 1023px) {
-    .portfolio__btn {
+    .contacts__btn {
       width: 27px;
       background-position: 4px 18px;
       background-size: 20px 16px;
@@ -113,7 +130,7 @@
   }
   
   @media screen and (max-width: 767px) {
-    .portfolio__btn {
+    .contacts__btn {
       width: 18px;
       height: 28px;
       background-position: 8px 7px;
@@ -122,12 +139,12 @@
   }
   
   @media (hover: hover) {
-    .portfolio__subtitle:hover {
+    .contacts__subtitle:hover {
       opacity: .7;
       cursor: pointer;
     }
   
-    .portfolio__btn:hover {
+    .contacts__btn:hover {
       opacity: .7;
       cursor: pointer;
     }

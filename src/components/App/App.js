@@ -1,17 +1,19 @@
+import Navigtion from '../Navigation/Navigation';
 import Header from '../Header/Header';
-import Techs from '../Techs/Techs';
 import AboutMe from '../AboutMe/AboutMe';
 import Portfolio from '../Portfolio/Portfolio';
+import Contacts from '../Contacts/Contacts';
 import Footer from '../Footer/Footer';
 import "./App.css"
 
 function App() {
   return (
     <>
+      <Navigtion />
       <Header />
-      <Techs />
       <AboutMe />
       <Portfolio />
+      <Contacts />
       <Footer />
     </>
   );

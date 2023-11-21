@@ -1,4 +1,3 @@
-import { GITHUB_URL } from '../../utils/urlConstants';
 import avatar from '../../images/Avatar.jpeg';
 import Container from "../Container/Container";
 import './AboutMe.css';
@@ -16,7 +15,7 @@ export default function AboutMe() {
               Михаил
             </h3>
             <p className="aboutme__job">
-              Фронтенд-разработчик, 29 лет
+              Фронтенд-разработчик, 30 лет
             </p>
             <p className="aboutme__description">
               Я родился и живу в Москве,
@@ -26,13 +25,50 @@ export default function AboutMe() {
               После того, как прошёл курс  по веб-разработке,
               начал заниматься фриланс-заказами, но не ушёл с постоянной работы.
               </p>
-            <a
-              href={GITHUB_URL}
-              target='_blank'
-              className="aboutme__link"
-              rel="noreferrer">
-                Github
-            </a>
+              <p className='aboutme__techs'>
+                Технологии
+              </p>
+              <p className="aboutme__techs-description">
+                На курсе веб-разработки мы освоили технологии, которые применили в дипломном проекте.
+              </p>
+              <ul className="aboutme__ul">
+                <li className="aboutme__list">
+                  HTML
+                </li>
+                <li className="aboutme__list">
+                  CSS
+                </li>
+                <li className="aboutme__list">
+                  JS
+                </li>
+                <li className="aboutme__list">
+                  React
+                </li>
+                <li className="aboutme__list">
+                  Git
+                </li>
+                <li className="aboutme__list">
+                  Express.js
+                </li>
+                <li className="aboutme__list">
+                  mongoDB
+                </li>
+                <li className="aboutme__list">
+                  Node.js
+                </li>
+                <li className="aboutme__list">
+                  DOM
+                </li>
+                <li className="aboutme__list">
+                  Webpack
+                </li>
+                <li className="aboutme__list">
+                  React Router
+                </li>
+                <li className="aboutme__list">
+                  Flexbox
+                </li>
+              </ul>
           </div>
           <img
             src={avatar}

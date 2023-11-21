@@ -1,4 +1,3 @@
-import { PRACTICUM_URL, GITHUB_URL } from '../../utils/urlConstants';
 import './Footer.css';
 
 export default function Footer() {
@@ -13,18 +12,10 @@ export default function Footer() {
         </p>
         <nav className="footer__navigation">
           <a
-            href={PRACTICUM_URL}
-            target='_blank'
+            href='#Navigation'
             className="footer__link"
             rel="noreferrer">
-              Яндекс.Практикум
-          </a>
-          <a
-            href={GITHUB_URL}
-            target='_blank'
-            className="footer__link"
-            rel="noreferrer">
-              Github
+              В начало
           </a>
         </nav>
       </div>
