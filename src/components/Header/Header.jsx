@@ -1,8 +1,10 @@
+
 import './Header.css';
 
 export default function Header() {
   return (
     <section className="header__main">
+      <div className='header__container'>
       <div className="header__about">
         <h1 className="header__title">
           Портфолио Веб-разработчика<br /> Копченова Михаила Викторовича.
@@ -15,6 +17,7 @@ export default function Header() {
         </a>
       </div>
       <div className="header__logo" />
+      </div>
     </section>
   );
 };

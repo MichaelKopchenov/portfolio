@@ -3,6 +3,7 @@ import './Footer.css';
 export default function Footer() {
   return (
     <footer className="footer">
+      <div className='footer_container'>
       <p className="footer__title">
         Портфолио Веб-разработчика
       </p>
@@ -18,6 +19,7 @@ export default function Footer() {
               В начало
           </a>
         </nav>
+      </div>
       </div>
     </footer>
   );
