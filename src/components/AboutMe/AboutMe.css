@@ -102,119 +102,138 @@
   
   /* Адаптив под экраны */
   
-  @media screen and (max-width: 1023px) {
-    .aboutme {
-      padding-top: 90px;
-      padding-bottom: 91px;
-    }
+@media screen and (max-width: 1023px) {
+  .aboutme {
+    padding-top: 90px;
+    padding-bottom: 91px;
   }
-  
-  @media screen and (max-width: 767px) {
-    .aboutme {
-      padding-top: 71px;
-      padding-bottom: 70px;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .aboutme__title {
-      margin-bottom: 60px;
-      padding-bottom: 28px;
-      font-size: 18px;
-      letter-spacing: -0.72px;
-    }
-  }
-  
-  @media screen and (max-width: 1023px) {
-    .aboutme__container {
-      grid-template-columns: minmax(0, 367px) 255px;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .aboutme__container {
-      justify-content: center;
-      grid-template-columns: minmax(284px, auto);
-      row-gap: 38px;
-    }
-  }
-  
-  @media screen and (max-width: 1023px) {
-    .aboutme__name {
-      margin-bottom: 16px;
-      font-size: 40px;
-      line-height: 40px;
-      letter-spacing: -1.6px;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .aboutme__name {
-      margin-bottom: 18px;
-      font-size: 30px;
-      letter-spacing: -1.2px;
-    }
-  }
-  
-  @media screen and (max-width: 1023px) {
-    .aboutme__job {
-      margin-bottom: 20px;
-      font-size: 12px;
-      line-height: 18px;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .aboutme__job {
-      margin-bottom: 20px;
-      font-size: 11px;
-      line-height: 16px;
-    }
-  }
-  
-  @media screen and (max-width: 1023px) {
-    .aboutme__description {
-      margin-bottom: 86px;
-      font-size: 12px;
-      line-height: 18px
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .aboutme__description {
-      margin-bottom: 39px;
-      font-size: 11px;
-      line-height: 16px;
-    }
-  }
-  
-  @media screen and (max-width: 1023px) {
-    .aboutme__avatar {
-      width: 255px;
-      height: 307px;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .aboutme__avatar:first-of-type {
-      justify-self: center;
-      width: 284px;
-      grid-column: 1;
-      grid-row: 1;
-      height: 352px;
-    }
-  }
+}
 
-  @media screen and (max-width: 1023px) {
-    .aboutme__ul {
-      max-width: 648px;
-      grid-template-columns: repeat(auto-fit, 84px);
-    }
+@media screen and (max-width: 320px) {
+  .aboutme__text-container {
+    text-align: center;
+    padding: 0 5px;
   }
-  
-  @media screen and (max-width: 767px) {
-    .aboutme__ul {
-      max-width: calc(178/284*100%);
-      grid-template-columns: repeat(auto-fit, 84px);
-    }
+  .aboutme__techs-description {
+    max-width: 100%;
+    text-align: center;
   }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutme {
+    padding-top: 71px;
+    padding-bottom: 70px;
+  }
+  .aboutme__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutme__techs-description {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutme__title {
+    margin-bottom: 60px;
+    padding-bottom: 28px;
+    font-size: 18px;
+    letter-spacing: -0.72px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .aboutme__container {
+    grid-template-columns: minmax(0, 600px) 255px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutme__container {
+    justify-content: center;
+    grid-template-columns: minmax(284px, auto);
+    row-gap: 38px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .aboutme__name {
+    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.6px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutme__name {
+    margin-bottom: 18px;
+    font-size: 30px;
+    letter-spacing: -1.2px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .aboutme__job {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutme__job {
+    margin-bottom: 20px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .aboutme__description {
+    margin-bottom: 86px;
+    font-size: 12px;
+    line-height: 18px
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutme__description {
+    margin-bottom: 39px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .aboutme__avatar {
+    width: 255px;
+    height: 307px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutme__avatar:first-of-type {
+    justify-self: center;
+    width: 284px;
+    grid-column: 1;
+    grid-row: 1;
+    height: 352px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .aboutme__ul {
+    max-width: 648px;
+    grid-template-columns: repeat(auto-fit, 84px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutme__ul {
+    max-width: calc(178/284*100%);
+    grid-template-columns: repeat(auto-fit, 84px);
+  }
+}

@@ -86,6 +86,26 @@
       padding-bottom: 69px;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    .contacts__nav {
+      display: flex;
+      flex-direction: column;
+    }
+    .contacts__image {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 448px) {
+    .contacts__nav {
+      display: flex;
+      flex-direction: column;
+    }
+    .contacts__image {
+      display: none;
+    }
+  }
   
   @media screen and (max-width: 767px) {
     .contacts__main {

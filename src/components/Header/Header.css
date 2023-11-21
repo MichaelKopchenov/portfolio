@@ -70,11 +70,26 @@
     align-items: center;
     padding: 140px 0 76px;
   }
+  .header__container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width:767px) {
   .header__main {
     padding: 70px 0 32px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .header__container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 20px;
+  }
+  .header__main {
+    padding: 20px 0 32px;
   }
 }
 
