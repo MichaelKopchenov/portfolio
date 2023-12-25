@@ -1,4 +1,5 @@
 .navigation {
+    position: absolute;
     background-color: var(--secondary-color);
     padding-bottom: 35px;
     width: 100%;
