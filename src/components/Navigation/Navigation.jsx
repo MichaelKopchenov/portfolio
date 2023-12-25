@@ -1,19 +1,15 @@
+import Anchor from '../Anchor/Anchor';
+import { anchors } from '../../utils/arraysList';
 import './Navigation.css';
 
 export default function Navigtion() {
     return (
         <section id='Navigation' className='navigation'>
         <nav className='navigation__container'>
-            <a href='#AboutMe' className='navigation__link'>
-                Обо мне
-            </a>
-            <a href='#Portfolio' className='navigation__link'>
-                Мои работы
-            </a>
-            <a href='#Contacts' className='navigation__link'>
-                Контакты
-            </a>
-      </nav>
+            <Anchor {...anchors[0]}/>
+            <Anchor {...anchors[1]}/>
+            <Anchor {...anchors[2]}/>
+        </nav>
       </section>
     )
 }

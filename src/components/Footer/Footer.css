@@ -1,12 +1,12 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 100%;
-    padding: 79px 0 0;
-    background-color: var(--dark-color);
-    font-family: 'Inter';
-  }
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  padding: 79px 0 0;
+  background-color: var(--dark-color);
+  font-family: 'Inter';
+}
 
 .footer_container {
   margin: 0 auto;
@@ -59,18 +59,6 @@
 
 /* Адаптив под экраны */
 
-@media screen and (max-width: 1023px) {
-  .footer {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .footer {
-    padding: 79px 10px 0;
-  }
-}
 
 @media screen and (max-width: 767px) {
   .footer__title {

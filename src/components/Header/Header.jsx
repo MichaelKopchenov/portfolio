@@ -3,6 +3,7 @@ import AboutMe from '../AboutMe/AboutMe';
 import Portfolio from '../Portfolio/Portfolio';
 import Contacts from '../Contacts/Contacts';
 import Navigtion from '../Navigation/Navigation';
+import Footer from '../Footer/Footer';
 import './Header.css';
 
 export default function Header() {
@@ -14,7 +15,11 @@ export default function Header() {
 
   return (
     <>
-    {isShown ? <Navigtion /> : null}
+    {
+      isShown ? 
+      <Navigtion /> : 
+      null
+    }
       <section className="header__main">
         <div className='header__container'>
           <div className="header__about">
@@ -33,7 +38,16 @@ export default function Header() {
           </div>
         </div>
       </section>
-      {isShown ? (<> <AboutMe /> <Portfolio /> <Contacts /> </>) : null}
+      {
+        isShown ? 
+        (<> 
+          <AboutMe /> 
+          <Portfolio /> 
+          <Contacts /> 
+        </>) :
+        null
+      }
+      <Footer />
     </>
   );
 };
