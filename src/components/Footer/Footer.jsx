@@ -4,22 +4,22 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className='footer_container'>
-      <p className="footer__title">
-        Портфолио Веб-разработчика
-      </p>
-      <div className="footer__container">
-        <p className="footer__subtitle">
-          &copy; {new Date().getFullYear()} Копченов Михаил Викторович
+        <p className="footer__title">
+          Портфолио Веб-разработчика
         </p>
-        <nav className="footer__navigation">
-          <a
-            href='#Navigation'
-            className="footer__link"
-            rel="noreferrer">
-              В начало
-          </a>
-        </nav>
-      </div>
+        <div className="footer__container">
+          <p className="footer__subtitle">
+            &copy; {new Date().getFullYear()} Копченов Михаил Викторович
+          </p>
+          <nav className="footer__navigation">
+            <a
+              href='#Navigation'
+              className="footer__link"
+              rel="noreferrer">
+                В начало
+            </a>
+          </nav>
+        </div>
       </div>
     </footer>
   );

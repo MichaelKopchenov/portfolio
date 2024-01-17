@@ -13,5 +13,5 @@ export default function ListOfProjects ({ title, way }) {
                 <button type='button' className='portfolio__btn' />
             </a>
         </li>
-    )
-}
+    );
+};

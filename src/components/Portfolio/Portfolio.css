@@ -2,133 +2,131 @@
     width: 100%;
     padding-bottom: 105px;
     background-color: var(--dark-color);
+}
+
+.portfolio__title {
+  margin: 0 0 50px 0;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #DADADA;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.88px;
+  color: var(--main-font-color)
+}
+
+.portfolio__nav {
+  width: 100%;
+}
+
+.portfolio__ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio__link {
+  text-decoration: none;
+  padding-bottom: 9px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #424242;
+  display: flex;
+  justify-content: space-between;
+  color: var(--main-font-color)
+}
+
+.portfolio__link_type_last {
+  margin-bottom: 0;
+}
+
+.portfolio__subtitle {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -1.2px;
+  transition: opacity .3s linear;
+}
+
+.portfolio__btn {
+  width: 29px;
+  height: 60px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: url(../../images/urlButton.svg);
+  background-repeat: no-repeat;
+  background-position: 4px 18px;
+  background-size: 20px 18px;
+  transition: opacity .3s linear;
+}
+
+@media screen and (max-width: 1023px) {
+  .portfolio__main {
+    padding-bottom: 69px;
   }
-  
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio__main {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .portfolio__title {
-    margin: 0 0 50px 0;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #DADADA;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.88px;
-    color: var(--main-font-color)
+    font-size: 18px;
+    margin-bottom: 40px;
   }
-  
-  .portfolio__nav {
-    width: 100%;
-  }
-  
-  .portfolio__ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
+}
+
+@media screen and (max-width: 767px) {
   .portfolio__link {
-    text-decoration: none;
-    padding-bottom: 9px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #424242;
-    display: flex;
-    justify-content: space-between;
-    color: var(--main-font-color)
+    padding-bottom: 19px;
   }
-  
-  .portfolio__link_type_last {
-    margin-bottom: 0;
-  }
-  
+}
+
+@media screen and (max-width:1023px) {
   .portfolio__subtitle {
-    margin: 0;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 50px;
-    letter-spacing: -1.2px;
-    transition: opacity .3s linear;
+    font-size: 28px;
+    letter-spacing: -1.12px;
   }
-  
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio__subtitle {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
   .portfolio__btn {
-    width: 29px;
-    height: 60px;
-    padding: 0;
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
-    background-image: url(../../images/urlButton.svg);
-    background-repeat: no-repeat;
+    width: 27px;
     background-position: 4px 18px;
-    background-size: 20px 18px;
-    transition: opacity .3s linear;
+    background-size: 20px 16px;
   }
-  
-  /* Адаптив под экраны */
-  
-  @media screen and (max-width: 1023px) {
-    .portfolio__main {
-      padding-bottom: 69px;
-    }
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio__btn {
+    width: 18px;
+    height: 28px;
+    background-position: 8px 7px;
+    background-size: 10px 10px;
   }
-  
-  @media screen and (max-width: 767px) {
-    .portfolio__main {
-      padding-bottom: 50px;
-    }
+}
+
+@media (hover: hover) {
+  .portfolio__subtitle:hover {
+    opacity: .7;
+    cursor: pointer;
   }
-  
-  @media screen and (max-width: 767px) {
-    .portfolio__title {
-      font-size: 18px;
-      margin-bottom: 40px;
-    }
+
+  .portfolio__btn:hover {
+    opacity: .7;
+    cursor: pointer;
   }
-  
-  @media screen and (max-width: 767px) {
-    .portfolio__link {
-      padding-bottom: 19px;
-    }
-  }
-  
-  @media screen and (max-width:1023px) {
-    .portfolio__subtitle {
-      font-size: 28px;
-      letter-spacing: -1.12px;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .portfolio__subtitle {
-      font-size: 18px;
-      line-height: 28px;
-      letter-spacing: -0.72px;
-    }
-  }
-  
-  @media screen and (max-width: 1023px) {
-    .portfolio__btn {
-      width: 27px;
-      background-position: 4px 18px;
-      background-size: 20px 16px;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .portfolio__btn {
-      width: 18px;
-      height: 28px;
-      background-position: 8px 7px;
-      background-size: 10px 10px;
-    }
-  }
-  
-  @media (hover: hover) {
-    .portfolio__subtitle:hover {
-      opacity: .7;
-      cursor: pointer;
-    }
-  
-    .portfolio__btn:hover {
-      opacity: .7;
-      cursor: pointer;
-    }
-  }
+}

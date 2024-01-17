@@ -1,22 +1,18 @@
-/* Контейнер для основного наполнения страницы */
-
 .section__container {
     margin: 0 auto;
     max-width: 1140px;
     width: calc(1140/1280*100%);
     font-family: 'Inter';
+}
+
+@media screen and (max-width: 1023px) {
+  .section__container {
+    width: calc(668/768*100%);
   }
-  
-  /* Адаптив под экраны */
-  
-  @media screen and (max-width: 1023px) {
-    .section__container {
-      width: calc(668/768*100%);
-    }
+}
+
+@media screen and (max-width: 767px) {
+  .section__container {
+    width: calc(284/320*100%);
   }
-  
-  @media screen and (max-width: 767px) {
-    .section__container {
-      width: calc(284/320*100%);
-    }
-  }
+}

@@ -71,8 +71,6 @@
   background-size: cover;
 }
 
-/* Адаптив под экраны */
-
 @media screen and (max-width:1023px) {
   .header__main {
     flex-direction: column;

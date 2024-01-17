@@ -1,4 +1,9 @@
-export default function ListOfContacts ({ title, way, icon, desc }) {
+export default function ListOfContacts ({ 
+    title, 
+    way, 
+    icon, 
+    desc 
+}) {
     return (
         <li className='contacts__list'>
             <a
@@ -9,13 +14,13 @@ export default function ListOfContacts ({ title, way, icon, desc }) {
             >
                 <p className='contacts__subtitle'>
                 {title} <img 
-                    className='contacts__icon' 
-                    src={icon} 
-                    alt={desc} 
-                />
+                            className='contacts__icon' 
+                            src={icon} 
+                            alt={desc} 
+                        />
                 </p>
                 <button type='button' className='contacts__btn' />
             </a>
         </li>
-    )
-}
+    );
+};

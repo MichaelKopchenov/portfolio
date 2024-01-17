@@ -3,5 +3,5 @@ export default function TechnologyList ({ name }) {
         <li className="aboutme__list">
             {name}
         </li>
-    )
-}
+    );
+};

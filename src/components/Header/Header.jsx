@@ -14,26 +14,32 @@ export default function Header() {
 
   return (
     <>
-    {isShown ? <Navigtion /> : null}
-      <section className="header__main">
-        <div className='header__container'>
-          <div className="header__about">
-            <h1 className="header__title">
-              Портфолио Веб-разработчика<br /> Копченова Михаила Викторовича.
-            </h1>
-            <p className="header__subtitle">
-              Нажми на кнопку, чтобы узнать больше про мои работы и меня.
-            </p>
-            <div className="header__logo" />
-            <a href='#AboutMe'>
-              <button onClick={handleClick} className="header__link">
-                Узнать больше
-              </button>
-            </a>
+      {isShown ? <Navigtion /> : null}
+        <section className="header__main">
+          <div className='header__container'>
+            <div className="header__about">
+              <h1 className="header__title">
+                Портфолио Веб-разработчика<br /> Копченова Михаила Викторовича.
+              </h1>
+              <p className="header__subtitle">
+                Нажми на кнопку, чтобы узнать больше про мои работы и меня.
+              </p>
+              <div className="header__logo" />
+              <a href='#AboutMe'>
+                <button onClick={handleClick} className="header__link">
+                  Узнать больше
+                </button>
+              </a>
+            </div>
           </div>
-        </div>
-      </section>
-      {isShown ? (<> <AboutMe /> <Portfolio /> <Contacts /> </>) : null}
+        </section>
+      {isShown 
+        ? (<> 
+              <AboutMe /> 
+              <Portfolio /> 
+              <Contacts /> 
+          </>) 
+        : null}
     </>
   );
 };
