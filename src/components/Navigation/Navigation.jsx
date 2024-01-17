@@ -6,9 +6,9 @@ export default function Navigtion() {
   return (
     <section id="Navigation" className="navigation">
       <nav className="navigation__container">
-        <Anchor {...anchors[0]} />
-        <Anchor {...anchors[1]} />
-        <Anchor {...anchors[2]} />
+        {anchors.map((item) => (
+          <Anchor key={item.title} {...item} />
+        ))}
       </nav>
     </section>
   );

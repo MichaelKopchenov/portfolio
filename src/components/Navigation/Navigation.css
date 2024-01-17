@@ -48,6 +48,7 @@
     .navigation__container {
         align-items: center;
     }
+
     .navigation__link {
         font-size: 13px;
         margin: 0 5px;
@@ -57,7 +58,7 @@
 
 @media (hover: hover) {
     .navigation__link:hover {
-      opacity: .7;
-      cursor: pointer;
+        opacity: .7;
+        cursor: pointer;
     }
-  }
+}
