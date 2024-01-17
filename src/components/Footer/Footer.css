@@ -57,18 +57,8 @@
   margin-right: 0;
 }
 
-@media screen and (max-width: 1023px) {
-  .footer {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
+/* Адаптив под экраны */
 
-@media screen and (max-width: 767px) {
-  .footer {
-    padding: 79px 10px 0;
-  }
-}
 
 @media screen and (max-width: 767px) {
   .footer__title {

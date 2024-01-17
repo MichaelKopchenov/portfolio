@@ -13,7 +13,7 @@ const urlLink = [
   },
   {
     title: 'Project "Fast Digital Dicisions"',
-    way: "https://michaelkopchenov.github.io/portfolio/",
+    way: "https://michaelkopchenov.github.io/new-fdd/#",
   },
   {
     title: 'Project "Vektor" (Without adaptive)',

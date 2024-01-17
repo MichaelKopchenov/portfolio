@@ -37,6 +37,22 @@ const technology = [
     }    
 ]
 
+const anchors = [
+    {
+        way: '#AboutMe',
+        title: 'Обо мне'
+    },
+    {
+        way: '#Portfolio',
+        title: 'Мои работы'
+    },
+    {
+        way: '#Contacts',
+        title: 'Контакты'
+    }
+]
+
 module.exports = {
-    technology
+    technology,
+    anchors
 }
