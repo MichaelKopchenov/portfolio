@@ -1,8 +1,8 @@
-import avatar from "../../images/Avatar.jpeg";
-import { technology } from "../../utils/arraysList";
 import { description, techDescription } from "../../utils/textList";
 import TechnologyList from "../TechnologyList/TechnologyList";
+import { technology } from "../../utils/arraysList";
 import Container from "../Container/Container";
+import avatar from "../../images/Avatar.jpeg";
 import "./AboutMe.css";
 
 export default function AboutMe() {

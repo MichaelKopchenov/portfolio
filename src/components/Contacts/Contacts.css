@@ -16,10 +16,7 @@
 }
 
 .contacts__nav {
-  display: grid;
   width: 100%;
-  justify-content: space-between;
-  grid-template-columns: minmax(0, 650px) 270px;
 }
 
 .contacts__icon {

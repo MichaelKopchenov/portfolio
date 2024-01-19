@@ -1,4 +1,3 @@
-import Telephone from "../../images/telephone.png";
 import Container from "../Container/Container";
 import ListOfContacts from "../ListOfContacts/ListOfContacts";
 import { contactsList } from "../../utils/contactsList";
@@ -15,11 +14,6 @@ export default function Contacts() {
               <ListOfContacts key={item.title} {...item} />
             ))}
           </ul>
-          <img
-            className="contacts__image"
-            src={Telephone}
-            alt="Картинка телефона"
-          />
         </nav>
       </Container>
     </section>
